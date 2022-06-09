@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
-import contact from "../../images/contact.png";
+import contact from "../../images/contact-us.png";
 
 const Contact = () => {
   const sendEmail = (event) => {
@@ -21,9 +21,9 @@ const Contact = () => {
       .catch((error) => console.log(error));
   };
   return (
-    <div>
-      <section>
-        <h6 className="top-title">CONTACT NOW</h6>
+    <div className="main-div">
+      <section className="full-section">
+        <p className="top-title">CONTACT NOW</p>
         <h1 className="title-text">
           Have Question? Write a <br /> Message
         </h1>

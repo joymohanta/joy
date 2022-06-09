@@ -1,4 +1,23 @@
 .main-page{
     background-image: url("https://i.ibb.co/jG0wwKT/back-image.jpghttps://i.ibb.co/jG0wwKT/back-image.jpg");
     margin-top: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.home-pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.developer-picture img{
+    width: 500px;
+}
+.name-title{
+    font-size: 50px;
+    margin-bottom: 0px;
 }
