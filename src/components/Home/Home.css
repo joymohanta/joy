@@ -6,6 +6,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 1px;
     
 }
 .home-pic{
@@ -16,12 +18,14 @@
     padding-right: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 .developer-picture img{
     width: 500px;
 }
 .name-title{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 0px;
 }
 .font-style{
@@ -37,6 +41,9 @@
     padding: 10px 40px;
     border-radius: 30px;
     background-color: #FF1A5C;
+}
+.button:hover{
+    background-color: #d9013e;
 }
 .icon{
     width: 18px;

@@ -1,0 +1,14 @@
+.footer{
+    text-align: center;
+    color: white;
+    background-color: #0E2A47;
+    padding: 20px 0px;
+}
+.footer img{
+    width: 30px;
+
+}
+.footer .github{
+    margin-left: 20px;
+    margin-right: 20px;
+}

@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
 import contact from "../../images/contact-us.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const sendEmail = (event) => {
     event.preventDefault();
 
@@ -22,14 +27,21 @@ const Contact = () => {
   };
   return (
     <div className="main-div">
-      <section className="full-section">
-        <p className="top-title">CONTACT NOW</p>
-        <h1 className="title-text">
+      <section id="contact-part" className="full-section">
+        <p data-aos="fade-up" className="top-title">
+          CONTACT NOW
+        </p>
+        <h1 data-aos="fade-up" data-aos-duration="2500" className="title-text">
           Have Question? Write a <br /> Message
         </h1>
         <div className="contact-section">
           <div className="signup-form">
-            <form onSubmit={sendEmail} className="form-control">
+            <form
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              onSubmit={sendEmail}
+              className="form-control"
+            >
               <label>Full Name</label>
               <br />
               <input className="input-field" type="text" name="name" required />
@@ -55,7 +67,11 @@ const Contact = () => {
               <input className="login-btn" type="submit" value="Send Message" />
             </form>
           </div>
-          <div className="picture">
+          <div
+            data-aos="fade-down"
+            data-aos-duration="3000"
+            className="picture"
+          >
             <img src={contact} alt="" />
           </div>
         </div>

@@ -4,6 +4,10 @@ import { ArrowNarrowRightIcon } from "@heroicons/react/solid";
 import TypeWriterEffect from "react-typewriter-effect";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from "../About/About";
+import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
+import Blogs from "../Blogs";
 
 const Home = () => {
   useEffect(() => {
@@ -38,14 +42,14 @@ const Home = () => {
             data-aos="fade-up"
             data-aos-duration="2500"
             className="button"
-            href="#"
+            href="#contact-part"
           >
             Hire Me
             <ArrowNarrowRightIcon className="icon"></ArrowNarrowRightIcon>
           </a>
         </div>
         <div
-          data-aos="fade-left"
+          data-aos="fade-down"
           data-aos-duration="3000"
           className="developer-picture"
         >
@@ -55,6 +59,11 @@ const Home = () => {
           />
         </div>
       </div>
+      <About></About>
+      <Projects></Projects>
+      <Contact></Contact>
+      <Blogs></Blogs>
+      <hr />
     </div>
   );
 };

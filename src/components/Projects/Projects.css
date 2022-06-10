@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Ms+Madi&family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500;800&family=Roboto&family=Roboto+Slab&display=swap');
+
+.main-project{
+    background-image: linear-gradient(#0a3e7998, #284d76);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.project-title{
+    text-align: center;
+    margin-bottom: 0px;
+    color: white;
+}
+.work-title{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 45px;
+    color: white;
+    margin-bottom: 130px;
+
+}
+.div-flex{
+    width: 100%;
+    display: flex;
+}
+.pic-size{
+    border: 1px solid #284d76;
+    /* box-sizing: border-box; */
+    width: 352px;
+    height: 250px;
+}
+.pic-size img{
+    width: 352px;
+    transition: transform ease-out 0.75s;
+}
+.pic-size:hover img{
+    transform: scale(1.5);
+}
+
+.parent-project:hover .inner-text{
+    display: block;
+}
+.parent-project{
+    width: 352px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 40px;
+}
+.inner-text{
+    display: none;
+    position: absolute;
+    top: 150px;
+    margin-left: 120px;
+    
+}
+.inner-text a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 10px;
+   
+}
+.code-link{
+    text-decoration: none;
+    color: rgb(46, 41, 41);
+}
+.inner-text button{
+    border: none;
+    border: 1px solid #FF1A5C;
+    /* border-radius: 7px; */
+    padding: 5px 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FF1A5C;
+    color: white;
+    cursor: pointer;
+}
+.project-per-detail{
+    margin-top: 80px;
+}
+@media screen and (max-width: 576px){
+    .div-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .parent-project{
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+}
