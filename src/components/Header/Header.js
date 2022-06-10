@@ -16,7 +16,7 @@ const Header = () => {
           <a href="#contact-part">Contact</a>
           <a
             id="resume"
-            href="https://drive.google.com/file/d/1aOPx_4kBjB_gu9nH1Wn0Lalvwtgbljhi/view?usp=sharing"
+            href="https://drive.google.com/file/d/1mFNxaezSNgmIOy5lE8A4H5S-uV1EupgK/view?usp=sharing"
           >
             Resume
           </a>
