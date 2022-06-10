@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Ms+Madi&family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500;800&family=Roboto&family=Roboto+Slab&display=swap');
 
 .main-div{
-    background-image: linear-gradient(#D7FFFC, #f9d1e2);
+    background-image: linear-gradient(#c9fdf1, #f9d1e2);
     padding-top: 100px;
     padding-bottom: 100px;
 }
