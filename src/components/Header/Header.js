@@ -10,6 +10,7 @@ const Header = () => {
           <a href="#">Home</a>
           <a href="#">Projects</a>
           <a href="#">About</a>
+          <a href="#">Blogs</a>
           <a href="#">Contact</a>
           <a
             id="resume"

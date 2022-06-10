@@ -17,12 +17,26 @@
     text-decoration: none;
     margin-right: 50px;
     color: white;
-    /* font-weight: 600; */
+
 }
 #resume{
     border: 1px solid #fb5296;
     padding: 10px 20px;
     border-radius: 30px;
-    /* background-image: linear-gradient(to right, #6141BB, #5A9BEB); */
     background-color: #fb0831;
+}
+@media screen and (max-width: 576px){
+    .header-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu a{
+        margin-right: 15px;
+
+    }
+    #resume{
+        display: block;
+        width: 60px;
+        margin: 0 auto;
+    }
 }

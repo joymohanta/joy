@@ -21,7 +21,7 @@
     width: 500px;
 }
 .name-title{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 0px;
 }
 .font-style{
@@ -42,7 +42,7 @@
     width: 18px;
     padding-left: 15px;
     position: relative;
-    /* animation: sliding 1s ease-in-out 0.5s infinite alternate; */
+    animation: sliding 1s ease-in-out 0.5s infinite alternate;
     animation-play-state: running;
 }
 
@@ -52,5 +52,16 @@
     }
     to{
         left: 15px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .home-pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .developer-picture img{
+        width: 300px;
+        padding-top: 25px;
     }
 }
