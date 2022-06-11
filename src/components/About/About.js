@@ -11,8 +11,10 @@ const About = () => {
   return (
     <div id="about-part" className="bg-pic">
       <div className="main-about">
-        <div data-aos="fade-up" className="personal-img">
-          <img src={photo} alt="" />
+        <div data-aos="fade-up" className="img-border">
+          <div className="personal-img">
+            <img src={photo} alt="" />
+          </div>
         </div>
         <div data-aos="fade-down" data-aos-duration="1500">
           <p
@@ -38,6 +40,13 @@ const About = () => {
             below. I am ready for your appointment. <br /> Thanks.
           </p>
           <br />
+          <h1 className="choose-title"> My Development Skills </h1>
+          <h4>
+            {" "}
+            HTML, CSS, Javascript, ES6, ReactJS, NodeJS, ExpressJS, Bootstrap,
+            Tailwind, <br /> MongoDB, JWT, Firebase, API, SPA, Stripe, Figma,
+            HTML to PSD,{" "}
+          </h4>
           <br />
           <a className="started-btn" href="#contact-part">
             Get Started

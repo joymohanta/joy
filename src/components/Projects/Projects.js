@@ -58,7 +58,7 @@ const Projects = () => {
             <p>
               Feature:{" "}
               <h4>
-                ReactJS, NodeJS, MongoDB, React Bootstrap, JWT, Strip, React
+                ReactJS, NodeJS, MongoDB, React Bootstrap, JWT, Stripe, React
                 Router, React Firebase Hook, Firebase, React Query, React Form
                 etc
               </h4>
