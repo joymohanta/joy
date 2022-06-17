@@ -32,12 +32,13 @@ const About = () => {
             Why choose me
           </h2>
           <p>
-            I have 1+ years of experience in this field. MERN stack developer{" "}
-            <br /> is my main working area. I have completed 3+ projects using
-            MERN. <br /> I also have taken a web development course from
-            programming hero. <br /> If you are interested to hire me and want
-            to make a challenging website <br /> using MERN, leave me a message
-            below. I am ready for your appointment. <br /> Thanks.
+            I have 2+ years of experience in this field. React and MERN stack
+            developer <br /> is my main working area. I have completed 6+
+            projects using MERN. <br /> I also have taken a web development
+            course from programming hero. <br /> If you are interested to hire
+            me and want to make a challenging website <br /> using React or
+            MERN, leave me a message below. I am ready for your appointment.{" "}
+            <br /> Thanks.
           </p>
           <br />
           <h1 className="choose-title"> My Development Skills </h1>
